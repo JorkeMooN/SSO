@@ -1,0 +1,64 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "name": "spring.cas",
+      "type": "com.jorkemoon.sso.config.SpringCasAutoConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "name": "spring.cas.assertion-filters",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "name": "spring.cas.auth-filters",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "name": "spring.cas.cas-server-login-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "name": "spring.cas.cas-server-url-prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "defaultValue": true,
+      "name": "spring.cas.redirect-after-validation",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "name": "spring.cas.request-wrapper-filters",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "name": "spring.cas.server-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "name": "spring.cas.sign-out-filters",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "defaultValue": true,
+      "name": "spring.cas.use-session",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.jorkemoon.sso.config.SpringCasAutoConfig",
+      "name": "spring.cas.validate-filters",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}
